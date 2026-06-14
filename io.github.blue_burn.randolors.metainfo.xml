@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<categories><category>utility</category></categories>
+<component type="desktop-application">
   <id>io.github.blue_burn.randolors</id>
   <name>Randolors</name>
   <summary>Random color generator</summary>
   <description>
     <p>A random color generator made with Pygame.</p>
   </description>
+  <categories>
+    <category>Utility</category>
+  </categories>
   <launchable type="desktop-id">io.github.blue_burn.randolors.desktop</launchable>
   <screenshots>
     <screenshot type="default">
-      <image>https://github.com/blue-burn/Randolors/blob/ec16416ca8e93f6b2f7254b2b6ef90daa2aa3a79/Screenshot_20260614_195433.png</image>
+      <image>https://raw.githubusercontent.com/blue-burn/Randolors/main/screenshot.png</image>
       <caption>Randolors main window</caption>
     </screenshot>
   </screenshots>
@@ -19,4 +22,5 @@
   <metadata_license>MIT</metadata_license>
   <project_license>MIT</project_license>
   <url type="homepage">https://github.com/blue-burn/Randolors</url>
-
+  <content_rating type="oars-1.1"/>
+</component>
