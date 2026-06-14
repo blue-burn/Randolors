@@ -1,16 +1,4 @@
-[6/14/26 9:19 PM] Sivath .S.Nair: flatpak run io.github.blue_burn.randolors
-[6/14/26 9:23 PM] Sivath .S.Nair: sdk-extensions:
-  - org.freedesktop.Sdk.Extension.python3
-[6/14/26 9:25 PM] Sivath .S.Nair: - name: pygame
-    buildsystem: simple
-    build-commands:
-      - pip3 install --prefix=/app pygame
-    sources:
-      - type: shell
-        commands:
-          - pip3 install pygame
-[6/14/26 9:26 PM] Sivath .S.Nair: #!/usr/bin/env python3
-[6/14/26 9:55 PM] Sivath .S.Nair: app-id: io.github.blue_burn.randolors
+app-id: io.github.blue_burn.randolors
 runtime: org.freedesktop.Platform
 runtime-version: "25.08"
 sdk: org.freedesktop.Sdk
