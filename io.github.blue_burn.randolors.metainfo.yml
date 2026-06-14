@@ -26,3 +26,13 @@ modules:
         path: io.github.blue_burn.randolors.metainfo.xml
       - type: file
         path: io.github.blue_burn.randolors.png
+ sdk-extensions:
+  - org.freedesktop.Sdk.Extension.python3
+ - name: pygame
+    buildsystem: simple
+    build-commands:
+      - pip3 install --prefix=/app pygame
+    sources:
+      - type: shell
+        commands:
+          - pip3 install pygame
