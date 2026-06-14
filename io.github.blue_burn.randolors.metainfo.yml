@@ -14,15 +14,15 @@ modules:
     buildsystem: simple
     build-commands:
       - install -Dm755 randomcolors.py /app/bin/randomcolors
-      - install -Dm644 io.github.blue-burn.randolors.desktop /app/share/applications/io.github.blue-burn.randolors.desktop
-      - install -Dm644 io.github.blue-burn.randolors.metainfo.xml /app/share/metainfo/io.github.blue-burn.randolors.metainfo.xml
-      - install -Dm644 io.github.blue-burn.randolors.png /app/share/icons/hicolor/128x128/apps/io.github.blue-burn.randolors.png
+      - install -Dm644 io.github.blue_burn.randolors.desktop /app/share/applications/io.github.blue_burn.randolors.desktop
+      - install -Dm644 io.github.blue-burn.randolors.metainfo.xml /app/share/metainfo/io.github.blue_burn.randolors.metainfo.xml
+      - install -Dm644 io.github.blue-burn.randolors.png /app/share/icons/hicolor/128x128/apps/io.github.blue_burn.randolors.png
     sources:
       - type: file
         path: randomcolors.py
       - type: file
-        path: io.github.blue-burn.randolors.desktop
+        path: io.github.blue_burn.randolors.desktop
       - type: file
-        path: io.github.blue-burn.randolors.metainfo.xml
+        path: io.github.blue_burn.randolors.metainfo.xml
       - type: file
-        path: io.github.blue-burn.randolors.png
+        path: io.github.blue_burn.randolors.png
