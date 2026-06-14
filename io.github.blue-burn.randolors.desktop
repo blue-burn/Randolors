@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Randolors
-Comment=Random colors generator made with Pygame
-Exec=randomcolors
-Icon=io.github.blue-burn.randolors
-Terminal=false
-Categories=Game;
