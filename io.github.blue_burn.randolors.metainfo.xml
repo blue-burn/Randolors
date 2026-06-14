@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<categories><category>Utility<category><categories>
+<categories><category>Utility</category></categories>
   <id>io.github.blue_burn.randolors</id>
   <name>Randolors</name>
   <summary>Random color generator</summary>
@@ -19,4 +19,4 @@
   <metadata_license>MIT</metadata_license>
   <project_license>MIT</project_license>
   <url type="homepage">https://github.com/blue-burn/Randolors</url>
-</component>
+
