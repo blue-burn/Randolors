@@ -20,7 +20,7 @@ modules:
   - name: pygame
     buildsystem: simple
     build-commands:
-      - pip3 install --prefix=/app pygame
+      - pip3 install --prefix=/app pygame-2.6.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
     sources:
       - type: file
         path: pygame-2.6.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
