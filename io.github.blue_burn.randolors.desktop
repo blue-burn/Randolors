@@ -5,4 +5,4 @@ Comment=Random colors generator made with Pygame
 Exec=randomcolors
 Icon=io.github.blue_burn.randolors
 Terminal=false
-Categories=utility;
+Categories=Utility;
