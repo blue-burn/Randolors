@@ -2,12 +2,7 @@ app-id: io.github.blue_burn.randolors
 runtime: org.freedesktop.Platform
 runtime-version: "25.08"
 sdk: org.freedesktop.Sdk
-sdk-extensions:
-  - org.freedesktop.Sdk.Extension.python3
 command: randomcolors
-
-build-options:
-  append-path: /usr/lib/sdk/python3/bin
 
 finish-args:
   - --share=ipc
@@ -15,10 +10,16 @@ finish-args:
   - --socket=wayland
 
 modules:
+  - name: python3
+    buildsystem: simple
+    build-commands:
+      - install -D /usr/bin/python3 /app/bin/python3
+    sources: []
+
   - name: pygame
     buildsystem: simple
     build-commands:
-      - pip3 install --prefix=/app --no-build-isolation pygame
+      - pip3 install --prefix=/app pygame
     sources:
       - type: archive
         url: https://files.pythonhosted.org/packages/source/p/pygame/pygame-2.6.1.tar.gz
